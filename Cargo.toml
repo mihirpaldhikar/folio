@@ -18,5 +18,8 @@ opt-level = 3
 codegen-units = 1
 
 [workspace.dependencies]
+memchr = { version = "2.8.0" }
+bytes = { version = "1.11.1" }
+
 # Alloctor
 mimalloc = { version = "0.1.50", features = ["secure"] }

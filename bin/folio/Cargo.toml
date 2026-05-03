@@ -9,4 +9,6 @@ name = "folio"
 path = "src/main.rs"
 
 [dependencies]
+memchr.workspace = true
+bytes.workspace = true
 mimalloc.workspace = true
