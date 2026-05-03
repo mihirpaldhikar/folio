@@ -1,0 +1,12 @@
+[package]
+name = "folio"
+version = "0.1.0"
+edition = "2024"
+authors = ["Mihir Paldhikar"]
+
+[[bin]]
+name = "folio"
+path = "src/main.rs"
+
+[dependencies]
+mimalloc.workspace = true
